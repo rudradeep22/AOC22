@@ -21,7 +21,3 @@ check::[Int] -> Bool
 check (a:b:c:d:_)
     | (a-c)*(b-d) <= 0 = True
     | otherwise        = False
-
-check2::[Int] -> Bool
-check2 (a:b:c:d:_)
-    | 
